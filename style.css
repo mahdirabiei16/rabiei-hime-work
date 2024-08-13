@@ -1,0 +1,43 @@
+.keypad {
+    height: 00px;
+    width: 300px;
+    background-color: blue;
+    
+    
+
+}
+.body{
+    width: 300px;
+   
+}
+.row1 , .row2 , .row3 , .row4 {
+    background-color: rgb(5, 3, 1);
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.row1   button, .row2   button, .row3   button, .row4 button{
+width: 60px;
+height: 50px;
+font-size: xx-large;
+border-radius: 10px;
+border: solid 1px;
+border-radius: 60px;
+
+background-color: black;
+color: chartreuse;
+
+}
+.res {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(5, 14, 0);
+    border-radius: 20px;
+    text-align: center;
+    font-size: xx-large;
+    color: chartreuse;
+
+}
